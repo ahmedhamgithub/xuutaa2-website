@@ -1,0 +1,64 @@
+html{
+    height: 100%;
+}
+body {
+    background-image: linear-gradient(#fc5e55, #fa4083);
+    font-family: 'Playfair', serif;
+    color: white;
+
+}
+.container {
+    width: 610px;
+    min-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5px;
+}
+main {
+    min-height: 300px;
+    align-items: center;
+    display: flex;
+
+
+}
+.wrapper{
+    background-color: rgb(47, 198, 33);
+    min-height: 150px;
+    display: flex;
+    justify-content:space-around;
+
+}
+.wrapper1{
+    background-color: rgba(8, 68, 72, 0.648);
+min-height: 100px;
+width: 30%;
+}
+.wrapper2{
+    background-color: rgb(228, 124, 173);
+    min-height: 100px;
+    width: 30%;
+    
+}
+.wrapper3{
+    background-color:rgb(91, 32, 92) ;
+    min-height: 100px;
+    width: 30%;
+    
+}
+.hero1{
+    flex: 2;
+}
+.hero2{
+    flex: 1;
+}
+h1{
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;
+}
